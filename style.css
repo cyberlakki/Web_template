@@ -102,4 +102,8 @@ text-decoration: none;
 ::-webkit-scrollbar-thumb:hover{
   border: 1px solid gold;
 }
+   .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
 
