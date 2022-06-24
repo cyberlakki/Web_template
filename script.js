@@ -5,10 +5,15 @@
          })
          $(".navbar a").hover(function(){
            $(".navbar a").removeClass("hover")
-           $(this).addClass("hover")
-         })
+           $(this).addClass("hover")}, 
+           function(){
+            $(".navbar a").removeClass("hover")
+           })
          $(".footer-link ul li").hover(function(){
            $(".footer-link ul li").removeClass("hover")
-           $(this).addClass("hover")
+           $(this).addClass("hover")},
+           function(){
+            $(".footer-link ul li").removeClass("hover")
+           
          })
         })  
