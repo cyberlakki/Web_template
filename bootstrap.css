@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+body{
+    font-family: sans-serif;
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ro{
+    display: flex;
+    justify-content: center;
+}
+.row-1{
+    background-image: url(/img/main.jpg);
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.quote{
+    padding: 90px 70px;
+}
+.cart{
+    padding: 20px;
+}
+.card{
+    margin: 10px;
+}
+.icon{
+    font-size:30px;
+}
+.footer-link ul{
+    /* color:black; */
+    display: flex;
+    list-style: none;
+}
+.footer-link ul li{
+    padding: 0 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.hover{
+    background-color:rgba(95, 158, 160, 0.581);
+    transition: 0.5s;
+}
+.navbar a{
+    margin: 0 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    border-radius: 20px;
+    font-weight: bold;
+}
+.nav{
+    background-image: linear-gradient(rgba(245, 245, 245, 0.678),rgba(255, 255, 255, 0.861));
+    display: block;
+    border-radius: 50px;
+    top: 1px;
+    box-shadow: 3px 10px 5px rgba(95, 158, 160, 0.581);
+    position: sticky;
+    z-index: 2;
+}
+.card-img-top:hover{
+  transform: rotateY(180deg);
+  transition: 0.5s;
+}
+.fa-solid{
+outline: none;
+text-decoration: none;
+}
+#head-text{
+    color:rgba(95, 158, 160, 0.581);
+    font-weight: bold;
+    margin-top: 5px;
+}
+#head-text:hover{
+    color:rgb(95, 158, 160);
+}
+ ::-webkit-scrollbar{
+  width: 1.5em;
+}
+::-webkit-scrollbar-track{
+  background: linear-gradient(pink,rgba(29, 253, 253, 0.711) ,pink);
+  border-radius: 100vw;
+  margin-block:0.5em ;
+} 
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(rgba(255, 255, 255, 0.763),rgba(246, 255, 0, 0.712) ,rgba(255, 255, 255, 0.818));
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover{
+  border: 1px solid gold;
+}
+
